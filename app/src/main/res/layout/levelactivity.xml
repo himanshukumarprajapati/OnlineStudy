@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:background="@color/tool"
+        android:layout_height="60dp">
+
+        <ImageView
+            android:id="@+id/back"
+            android:layout_width="30dp"
+            android:background="@drawable/fbckk"
+            android:layout_marginLeft="10dp"
+            android:layout_gravity="center"
+            android:padding="10dp"
+            android:layout_height="30dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textColor="#ffffff"
+            android:textSize="20sp"
+            android:layout_marginLeft="20dp"
+            android:text="Chapter"
+            />
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#000000"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="match_parent">
+            <LinearLayout
+                android:id="@+id/levelone"
+                android:layout_width="match_parent"
+                android:background="@drawable/ek"
+                android:layout_marginTop="20dp"
+                android:layout_height="60dp">
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_gravity="center"
+                    android:layout_height="30dp"
+                    android:layout_marginLeft="20dp"
+                    android:src="@drawable/img1"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:textSize="16sp"
+                    android:text="Level 1"
+                    />
+
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/leveltwo"
+                android:layout_width="match_parent"
+                android:background="@drawable/doo"
+                android:layout_marginTop="10dp"
+                android:layout_height="60dp">
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_gravity="center"
+                    android:layout_height="30dp"
+                    android:layout_marginLeft="20dp"
+                    android:src="@drawable/img2"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:textSize="16sp"
+                    android:text="Level 2"
+                    />
+
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/levelthree"
+                android:layout_width="match_parent"
+                android:background="@drawable/teen"
+                android:layout_marginTop="10dp"
+                android:layout_height="60dp">
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_gravity="center"
+                    android:layout_height="30dp"
+                    android:layout_marginLeft="20dp"
+                    android:src="@drawable/img3"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:textSize="16sp"
+                    android:text="Level 3"
+                    />
+
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/levelfour"
+                android:layout_width="match_parent"
+                android:background="@drawable/charr"
+                android:layout_marginTop="10dp"
+                android:layout_height="60dp">
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_gravity="center"
+                    android:layout_height="30dp"
+                    android:layout_marginLeft="20dp"
+                    android:src="@drawable/img4"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:textSize="16sp"
+                    android:text="Level 4"
+                    />
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

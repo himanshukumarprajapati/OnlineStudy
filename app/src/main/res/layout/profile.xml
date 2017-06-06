@@ -1,0 +1,367 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_below="@+id/linearLayout3"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+
+        android:layout_height="60dp"
+        android:background="@color/tool"
+        android:id="@+id/linearLayout3">
+
+        <ImageView
+            android:id="@+id/back"
+            android:layout_width="30dp"
+            android:background="@drawable/fbckk"
+            android:layout_marginLeft="10dp"
+            android:layout_gravity="center"
+            android:padding="10dp"
+            android:layout_height="30dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textColor="#ffffff"
+            android:textSize="20sp"
+            android:layout_marginLeft="50dp"
+            android:text="Profile"
+            />
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#000000"/>
+    <com.android.volley.toolbox.NetworkImageView
+        android:id="@+id/networkImageView"
+        android:layout_width="150dp"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/linearLayout3"
+        android:layout_height="150dp"
+        android:layout_centerHorizontal="true"
+        android:background="#000000"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="Rahul Singh"
+        android:textSize="16sp"
+        android:layout_below="@+id/networkImageView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="18dp"
+        android:id="@+id/textView2" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imgurltxt"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Mobile Number: 9876543210"
+        android:textSize="18sp"
+        android:layout_below="@+id/textView2"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/textView3" />
+    <View
+        android:id="@+id/line"
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/textView3"
+        android:background="#D8D6D5"/>
+<LinearLayout
+    android:id="@+id/first"
+    android:layout_width="match_parent"
+    android:layout_below="@+id/line"
+    android:layout_margin="10dp"
+    android:orientation="vertical"
+    android:layout_height="50dp">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sponser Id"
+        android:textColor="#000000"
+        android:textSize="15sp"
+        />
+    <TextView
+        android:id="@+id/sponserid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="123456"
+        android:textSize="15sp"
+        />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="5dp"
+        android:background="#D8D6D5"/>
+
+</LinearLayout>
+    <LinearLayout
+        android:id="@+id/second"
+        android:layout_width="match_parent"
+        android:layout_below="@+id/first"
+        android:layout_margin="10dp"
+        android:orientation="vertical"
+        android:layout_height="50dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="OEA Money"
+            android:textColor="#000000"
+            android:textSize="15sp"
+            />
+        <TextView
+            android:id="@+id/oeamoney"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="₹ 5000"
+            android:textSize="15sp"
+            />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="5dp"
+            android:background="#D8D6D5"/>
+
+    </LinearLayout>
+<RelativeLayout
+    android:id="@+id/third"
+    android:layout_width="match_parent"
+    android:layout_below="@+id/second"
+    android:layout_margin="10dp"
+    android:layout_height="50dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Class"
+        android:id="@+id/classs"
+        android:textColor="#000000"
+        android:textSize="15sp"
+        />
+    <TextView
+        android:id="@+id/classname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Class 7th"
+        android:layout_below="@+id/classs"
+        android:textSize="15sp"
+        />
+
+    <ImageView
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:src="@drawable/edt"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="10dp"
+        android:layout_marginEnd="10dp"
+        android:id="@+id/imageView4" />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@+id/imageView4"
+        android:layout_marginTop="5dp"
+        android:background="#D8D6D5"/>
+
+</RelativeLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/four"
+        android:layout_width="match_parent"
+        android:layout_below="@+id/third"
+        android:layout_margin="10dp"
+        android:layout_height="50dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Phone Number"
+            android:textColor="#000000"
+            android:id="@+id/classss"
+            android:textSize="15sp"
+            />
+        <TextView
+            android:id="@+id/phoneno"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="9876543210"
+            android:layout_below="@+id/classss"
+            android:textSize="15sp"
+            />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_below="@+id/imageView5"
+            android:layout_marginTop="5dp"
+            android:background="#D8D6D5"/>
+
+        <ImageView
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:src="@drawable/edt"
+            android:id="@+id/imageView5"
+            android:layout_marginRight="10dp"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/five"
+        android:layout_width="match_parent"
+        android:layout_below="@+id/four"
+        android:layout_margin="10dp"
+        android:layout_height="50dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Full Name"
+            android:textColor="#000000"
+            android:id="@+id/classsss"
+            android:textSize="15sp"
+            />
+        <TextView
+            android:id="@+id/fullname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Rahul Singh"
+            android:layout_below="@+id/classsss"
+            android:textSize="15sp"
+            />
+
+        <ImageView
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:src="@drawable/edt"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginRight="10dp"
+            android:layout_marginEnd="10dp"
+            android:id="@+id/imageView6" />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_below="@+id/imageView6"
+            android:layout_marginTop="5dp"
+            android:background="#D8D6D5"/>
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/six"
+        android:layout_width="match_parent"
+        android:layout_below="@+id/five"
+        android:layout_margin="10dp"
+        android:layout_height="50dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Email Id"
+            android:textColor="#000000"
+            android:id="@+id/classssss"
+            android:textSize="15sp"
+            />
+        <TextView
+            android:id="@+id/emailid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="testing@testing.com"
+            android:layout_below="@+id/classssss"
+            android:textSize="15sp"
+            />
+
+        <ImageView
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:src="@drawable/edt"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginRight="10dp"
+            android:layout_marginEnd="10dp"
+            android:id="@+id/imageView7" />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_below="@+id/imageView7"
+            android:layout_marginTop="5dp"
+            android:background="#D8D6D5"/>
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/seven"
+        android:layout_width="match_parent"
+        android:layout_below="@+id/six"
+        android:layout_margin="10dp"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="School Name"
+            android:textColor="#000000"
+            android:id="@+id/classsssss"
+            android:textSize="15sp"
+            />
+        <TextView
+            android:id="@+id/schoolname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Abc"
+            android:layout_below="@+id/classsssss"
+            android:textSize="15sp"
+            />
+
+        <ImageView
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:src="@drawable/edt"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginRight="10dp"
+            android:layout_marginEnd="10dp"
+            android:id="@+id/imageView8" />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_below="@+id/imageView8"
+            android:layout_marginTop="5dp"
+            android:background="#D8D6D5"/>
+        <Button
+            android:id="@+id/btnsubmit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Update Profile"
+            android:layout_marginTop="80dp"
+            android:textColor="#ffffff"
+            android:background="@drawable/btnbackground"
+            />
+
+    </RelativeLayout>
+</RelativeLayout>
+    </ScrollView>
+</RelativeLayout>

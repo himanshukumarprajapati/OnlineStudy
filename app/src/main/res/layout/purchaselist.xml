@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="#ffffff"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:background="@color/tool"
+        android:layout_height="60dp">
+
+        <ImageView
+            android:id="@+id/back"
+            android:layout_width="30dp"
+            android:background="@drawable/fbckk"
+            android:layout_marginLeft="10dp"
+            android:layout_gravity="center"
+            android:padding="10dp"
+            android:layout_height="30dp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textColor="#ffffff"
+            android:textSize="20sp"
+            android:layout_marginLeft="50dp"
+            android:text="Purchase List"
+            />
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#000000"/>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent">
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="10dp"
+    android:textSize="16sp"
+    android:layout_marginTop="20dp"
+    android:textColor="#000000"
+    android:text="Transaction Id"
+    />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:background="@drawable/backgroundedit"
+        android:padding="5dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/ettractionid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:numeric="integer"
+            android:backgroundTint="#ffffff"
+            android:hint="01234567890"
+            />
+    </LinearLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:textSize="16sp"
+        android:layout_marginTop="20dp"
+        android:textColor="#000000"
+        android:text="Class Name"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:background="@drawable/backgroundedit"
+        android:padding="5dp"
+        android:layout_margin="10dp"
+        android:layout_height="wrap_content">
+
+
+        <EditText
+            android:id="@+id/etclassname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:backgroundTint="#ffffff"
+            android:hint="Class Name"
+            />
+
+
+    </LinearLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:textSize="16sp"
+        android:layout_marginTop="20dp"
+        android:textColor="#000000"
+        android:text="Subject Name"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:background="@drawable/backgroundedit"
+        android:padding="5dp"
+        android:layout_margin="10dp"
+        android:layout_height="wrap_content">
+
+
+        <EditText
+            android:id="@+id/etsubjectname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:backgroundTint="#ffffff"
+            android:hint="Science"
+            />
+
+
+    </LinearLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:textSize="16sp"
+        android:layout_marginTop="20dp"
+        android:textColor="#000000"
+        android:text="Price"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:background="@drawable/backgroundedit"
+        android:padding="5dp"
+        android:layout_margin="10dp"
+        android:layout_height="wrap_content">
+
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:backgroundTint="#ffffff"
+            android:numeric="integer"
+            android:hint="4000.00"
+            android:id="@+id/etprice" />
+
+
+    </LinearLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:textSize="16sp"
+        android:layout_marginTop="20dp"
+        android:textColor="#000000"
+        android:text="Paid OEA Money"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:background="@drawable/backgroundedit"
+        android:padding="5dp"
+        android:layout_margin="10dp"
+        android:layout_height="wrap_content">
+
+
+        <EditText
+            android:id="@+id/etpaidoea"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:numeric="integer"
+            android:backgroundTint="#ffffff"
+            android:hint="5000.00"
+            />
+
+
+    </LinearLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:textSize="16sp"
+        android:layout_marginTop="20dp"
+        android:textColor="#000000"
+        android:text="Paid INR"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:background="@drawable/backgroundedit"
+        android:padding="5dp"
+        android:layout_margin="10dp"
+        android:layout_height="wrap_content">
+
+
+        <EditText
+            android:id="@+id/etpaidinr"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:numeric="integer"
+            android:backgroundTint="#ffffff"
+            android:hint="5000.00"
+            />
+
+
+    </LinearLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:textSize="16sp"
+        android:layout_marginTop="20dp"
+        android:textColor="#000000"
+        android:text="School Name"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:background="@drawable/backgroundedit"
+        android:padding="5dp"
+        android:layout_margin="10dp"
+        android:layout_height="wrap_content">
+
+
+        <EditText
+            android:id="@+id/etschoolname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:backgroundTint="#ffffff"
+            android:hint="A.B.C International School"
+            />
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:background="@drawable/btnbackground"
+        android:layout_height="wrap_content"
+        android:padding="4dp"
+        android:layout_margin="20dp"
+        android:layout_marginTop="40dp"
+        android:layout_below="@+id/linearLayout"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/linearLayout2">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:textColor="#ffffff"
+            android:textSize="18sp"
+            android:padding="8dp"
+            android:text="Submit"
+            />
+
+    </LinearLayout>
+    </LinearLayout>
+    </ScrollView>
+</LinearLayout>

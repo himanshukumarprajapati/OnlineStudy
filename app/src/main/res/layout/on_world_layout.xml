@@ -1,0 +1,138 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".arquizapp.QuizActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:background="@color/tool"
+        android:layout_height="60dp">
+
+        <ImageView
+            android:id="@+id/back"
+            android:layout_width="30dp"
+            android:background="@drawable/fbckk"
+            android:layout_marginLeft="10dp"
+            android:layout_gravity="center"
+            android:padding="10dp"
+            android:layout_height="30dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textColor="#ffffff"
+            android:textSize="20sp"
+            android:layout_marginLeft="20dp"
+            android:text="Quiz"
+            />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#000000"/>
+    <LinearLayout
+        android:id="@+id/l"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="80dp"
+        android:background="@color/tool"
+        android:layout_below="@+id/view"
+
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:textSize="18sp"
+            android:text="One-Word"
+            android:textColor="#ffffff"
+            android:id="@+id/textView10" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:id="@+id/llayout"
+        android:layout_below="@+id/l"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Question-:"
+            android:visibility="gone"
+            />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:text="Question"
+        />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/question"
+        android:id="@+id/quiz_question"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:textSize="20sp"
+        android:textColor="#000000"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+</LinearLayout>
+
+
+        <EditText
+            android:layout_marginTop="40dp"
+            android:layout_below="@+id/llayout"
+            android:layout_height="50dp"
+            android:layout_width="match_parent"
+            android:id="@+id/et_answer"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/backgroundedit"
+            android:textColor="#000000"
+            android:hint="Enter Your Answer Here...."
+            android:paddingLeft="20dp"
+            />
+
+
+    <Button
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:id="@+id/nextquiz"
+        android:text="Next Question "
+        android:textColor="#ffffff"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:padding="5dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/btnbackground"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/et_answer"
+        android:layout_alignBaseline="@+id/previousquiz"/>
+
+    <Button
+        android:visibility="gone"
+        android:layout_height="wrap_content"
+        android:layout_width="160dp"
+        android:gravity="center"
+        android:id="@+id/previousquiz"
+        android:text="Back"
+        android:layout_below="@+id/radioGroup"
+        android:layout_alignLeft="@+id/radioGroup"
+        android:padding="5dp"
+        android:layout_marginTop="20dp"
+        android:layout_alignStart="@+id/radioGroup" />
+
+</RelativeLayout>
